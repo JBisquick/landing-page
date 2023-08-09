@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Roboto', arial;
+  margin: 0;
 }
 
 a {
@@ -15,14 +16,11 @@ a {
   align-items: center;
   font-size: 24px;
   padding: 16px 150px;
-  color: #F9FAF8;
 }
 
 .logo {
-  display: flex;
   align-items: center;
   font-weight: bold;
-  gap: 16px;
 }
 
 .logo-img {
@@ -30,12 +28,49 @@ a {
   height: 48px;
 }
 
-.links {
+.header div {
   display: flex;
   gap: 16px;
+}
+
+.header-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 0 96px 0;
+  gap: 16px;
+}
+
+.hero { 
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  gap: 8px;
+}
+.hero .main {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero .secondary {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero .sign-up {
+  padding: 12px 48px;
+  border-radius: 14px;
+  background-color: #3882F6;
+  margin-right: auto;
+}
+
+.skeleton {
+  height: 300px;
+  width: auto;
 }
 
 .header,
 .header-info {
   background-color: #1F2937;
+  color: #F9FAF8;
 }
