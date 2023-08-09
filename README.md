@@ -1,1 +1,2 @@
 # odin-landing-page
+A landing page for a fake dinosaur website. This project is a single web page. The webpage was created using HTML and CSS. The purpose of this project was to assist in learning how to use CSS and Flexbox.
