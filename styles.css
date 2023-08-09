@@ -105,6 +105,71 @@ a {
   margin: 24px;
 }
 
+.quote {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 0;
+  align-items: center;
+  background-color: #E5E7EB;
+  gap: 12px;
+}
+
+.quote div {
+  width: 500px;
+  color: #1F2937;
+}
+
+.r-quote {
+  font-style: italic;
+  font-size: 36px;
+}
+
+.robert {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 650px;
+}
+
+.footer-sign-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882F6;
+  width: 600px;
+  height: 100px;
+  margin: 75px auto 75px auto;
+  gap: 75px;
+  border-radius: 14px;
+  color:  #F9FAF8;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.action-click {
+  font-size: 10px;
+}
+
+.sign-up {
+  border: 2px solid #F9FAF8;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  font-size: 12px;
+}
+
 #learn {
   font-size: 36px;
   font-weight: bolder;
